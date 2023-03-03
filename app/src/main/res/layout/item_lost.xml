@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageItem"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:src="@drawable/montre"
+        />
+
+    <TextView
+        android:id="@+id/titreItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageItem"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Titre"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:id="@+id/descriptionItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageItem"
+        android:layout_below="@id/titreItem"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Description"
+        />
+
+    <TextView
+        android:id="@+id/dateItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageItem"
+        android:layout_below="@id/descriptionItem"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Date"
+        />
+
+
+
+    <TextView
+        android:id="@+id/buildingItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageItem"
+        android:layout_below="@id/dateItem"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Building"
+        />
+
+    <TextView
+        android:id="@+id/roomItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageItem"
+        android:layout_below="@id/buildingItem"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Room"
+        />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Objet CERI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_item">add item</string>
+    <string name="logOrSign">"Log in or Sign up ? "</string>
+    <string name="logIn">login</string>
+    <string name="username">email</string>
+    <string name="password">password</string>
+    <string name="user">username</string>
+    <string name="email">email</string>
+    <string name="confirmPassword">confirm password</string>
+</resources>
+

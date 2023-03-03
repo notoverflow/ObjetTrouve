@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275759801495",
+    "project_id": "objet-trouve",
+    "storage_bucket": "objet-trouve.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275759801495:android:e3c7f58ca2c2aad40735d2",
+        "android_client_info": {
+          "package_name": "com.example.objetceri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275759801495-p9q2mps8kpo32dsfad10sjfvct1g7d76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd2uUhR7PI1LFfxxevHsZQfrL8A2De9-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275759801495-p9q2mps8kpo32dsfad10sjfvct1g7d76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
